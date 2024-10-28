@@ -1,0 +1,139 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0e5f1;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 3em;
+  background-color: #fff;
+}
+
+.brand h1 {
+  font-size: 1.5em;
+}
+
+.brand p {
+  margin-top: -0.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.lang-switch button, .search-icon {
+  background: none;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 3em;
+  background-color: #ffffff;
+  margin: 2em auto;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.hero-text p {
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 1.5em;
+}
+
+.buttons {
+  display: flex;
+  gap: 1em;
+}
+
+.pink-btn, .white-btn {
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.pink-btn {
+  background-color: #f5a7a7;
+  color: #fff;
+}
+
+.white-btn {
+  background-color: white;
+  border: 2px solid #333;
+  color: #333;
+}
+
+.hero-image {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 80%;
+  border-radius: 15px;
+}
+
+.card-container {
+  position: absolute;
+  display: flex;
+  gap: 1em;
+  bottom: 10%;
+}
+
+.card {
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 1em;
+  width: 100px;
+  text-align: center;
+  justify-content: flex-end;
+  font-size: 0.9em;
+}
+
+.card span {
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.card p:last-child {
+  font-weight: bold;
+  font-size: 1.1em;
+}
